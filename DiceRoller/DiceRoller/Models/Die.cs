@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DiceRoller.Models
 {
-    internal class Die
+    public class Die
     {
     }
 }
