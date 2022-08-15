@@ -71,7 +71,7 @@ namespace UITest
             c.Marked("d4")              //look for items marked d4
             .Invoke("isChecked"))       //call the isChecked method of the RadioButton
             .FirstOrDefault()           //get the first result(there should only be one)
-            .Equals(false));             //check that the view is NOT checked(isChecked = false)
+            .Equals(false));            //check that the view is NOT checked(isChecked = false)
 
             
         }

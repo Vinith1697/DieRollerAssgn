@@ -38,7 +38,7 @@ namespace DiceRoller.Models
 
         public void SetSide(int newSides)
         {
-            CurrentSide = newSides;
+            this.CurrentSide = newSides;
         }
 
 
